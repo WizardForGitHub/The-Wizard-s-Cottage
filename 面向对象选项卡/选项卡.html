@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+			<style type="text/css">
+				#div1 div{
+					width: 100px;
+					height: 100px;
+					background: red;
+					display: none;
+				}
+				.active{
+					background: red;
+				}
+			</style>
+		<title></title>
+		<script src="选项卡.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			var t =new xvanxiangka();
+			/*t.initialition();*/
+			window.onload =function(){
+				t.initialition();
+				t.cl();
+				/*alert(t.zixvanxiangkas);*/
+			}
+			/*alert(t.zixvanxiangkas[0]);*/
+			
+		</script>
+	</head>
+	<body>
+		<div id="div1">
+			<input type="button" value="b1" class="active"/>
+			<input type="button" value="b2"/>
+			<input type="button" value="b3"/>
+			<div >1111</div>
+			<div >222</div>
+			<div>333</div>
+		</div>
+	</body>
+</html>
